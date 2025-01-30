@@ -49,7 +49,7 @@ public class Loading extends javax.swing.JFrame implements Runnable {
     }
 
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">                          
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
         jSplitPane1 = new javax.swing.JSplitPane();
@@ -134,7 +134,7 @@ public class Loading extends javax.swing.JFrame implements Runnable {
         );
 
         pack();
-    }// </editor-fold>                        
+    }// </editor-fold>//GEN-END:initComponents
 
     public static void main(String args[]) {
 
@@ -145,13 +145,13 @@ public class Loading extends javax.swing.JFrame implements Runnable {
         });
     }
 
-    // Variables declaration - do not modify                     
+    // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     public static javax.swing.JProgressBar jProgressBar1;
     private javax.swing.JSplitPane jSplitPane1;
-    // End of variables declaration                   
+    // End of variables declaration//GEN-END:variables
 
 }

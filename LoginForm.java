@@ -22,7 +22,7 @@ public class LoginForm extends javax.swing.JFrame {
 
 
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">                          
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
@@ -194,9 +194,9 @@ public class LoginForm extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>                        
+    }// </editor-fold>//GEN-END:initComponents
 
-    private void loginbuttonActionPerformed(java.awt.event.ActionEvent evt) {                                            
+    private void loginbuttonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_loginbuttonActionPerformed
     
        String email=jTextField_email.getText();
        String pass=String.valueOf(jPasswordField1.getPassword());
@@ -239,27 +239,27 @@ public class LoginForm extends javax.swing.JFrame {
        
        }
      
-    }                                           
+    }//GEN-LAST:event_loginbuttonActionPerformed
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
      System.exit(0);
-    }                                        
+    }//GEN-LAST:event_jButton1ActionPerformed
 
-    private void jLabel3MouseClicked(java.awt.event.MouseEvent evt) {                                     
+    private void jLabel3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel3MouseClicked
        RegisterForm rgf=new  RegisterForm();
        rgf.setVisible(true);
        rgf.pack();
        rgf.setLocationRelativeTo(null);
        rgf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
        this.dispose();
-    }                                    
+    }//GEN-LAST:event_jLabel3MouseClicked
 
-    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
        this.dispose();
        ForgotPass fp=new ForgotPass();
        fp.setVisible(true);
        
-    }                                        
+    }//GEN-LAST:event_jButton3ActionPerformed
 
    
     public static void main(String args[]) {
@@ -290,7 +290,7 @@ public class LoginForm extends javax.swing.JFrame {
         });
     }
 
-    // Variables declaration - do not modify                     
+    // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton3;
     private javax.swing.JLabel jLabel1;
@@ -303,5 +303,5 @@ public class LoginForm extends javax.swing.JFrame {
     private javax.swing.JPasswordField jPasswordField1;
     private javax.swing.JTextField jTextField_email;
     private javax.swing.JButton loginbutton;
-    // End of variables declaration                   
+    // End of variables declaration//GEN-END:variables
 }
